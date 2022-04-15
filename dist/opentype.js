@@ -11,6 +11,7 @@
 	/*! https://mths.be/codepointat v0.2.0 by @mathias */
 	if (!String.prototype.codePointAt) {
 		(function() {
+            console.log("opentype.js");
 			var defineProperty = (function() {
 				// IE 8 only supports `Object.defineProperty` on DOM elements
 				try {
